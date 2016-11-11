@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Chat App</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="master.css" media="screen" title="no title">
+    <link rel="stylesheet" href="flex.css" media="screen" title="no title">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="login hidden">
+                <div class="glogo">
+                </div>
+                <div class="title">
+                    ChatApp
+                </div>
+                <div class="button login-button">
+                    LOGIN
+                </div>
+            </div>
+            <div class="rooms flex col">
+                <div class="create-room full-width flex-shrink">
+                    <div class="group">
+                        <input type="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Create Room</label>
+                    </div>
+                </div>
+                <ul class="room-list full-width flex-grow">
+                    <li>Room 1</li>
+                    <li>Room 2</li>
+                    <li>Room 2</li>
+                    <li>Room 2</li>
+                    <li>Room 2</li>
+                    <li>Room 2</li>
+                    <li>Room 2</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-database.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBnd1B4Fm8iQISYrxb6T1a_OU8ucPntx28",
+        authDomain: "chatapp-a9a91.firebaseapp.com",
+        databaseURL: "https://chatapp-a9a91.firebaseio.com",
+        storageBucket: "chatapp-a9a91.appspot.com",
+        messagingSenderId: "240177965145"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="database.js" charset="utf-8"></script> -->
+    <script src="authenticate.js" charset="utf-8"></script>
+</body>
+</html>

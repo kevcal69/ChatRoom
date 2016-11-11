@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    background-color: #cfd8dc;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .box .login {
+    width: 40%;
+    height: 50%;
+    -webkit-box-shadow: 0px 12px 43px -10px rgba(0,0,0,0.99);
+    -moz-box-shadow: 0px 12px 43px -10px rgba(0,0,0,0.99);
+    box-shadow: 0px 12px 43px -10px rgba(0,0,0,0.99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .box .login .title {
+    font-size: 3em;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+.container .box .login .glogo {
+    background: url("http://diylogodesigns.com/blog/wp-content/uploads/2016/04/google-logo-icon-PNG-Transparent-Background.png");
+    background-size: 70%, 70%;
+    background-position: center;
+    background-repeat: no-repeat;;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.container .box .login .button {
+    padding: 8px 8px;
+    border-radius: 2px;
+    font-size: .8em;
+    color: #212121;
+    cursor: pointer;
+    transition-property: background, color;
+    transition-duration: 300ms;
+}
+
+.container .box .login .button:hover {
+    background-color: #607d8b;
+    color: #fafafa;
+}
+
+.container .box .rooms {
+    width: 40%;
+    height: 50%;
+    -webkit-box-shadow: 0px 12px 43px -10px rgba(0,0,0,0.99);
+    -moz-box-shadow: 0px 12px 43px -10px rgba(0,0,0,0.99);
+    box-shadow: 0px 12px 43px -10px rgba(0,0,0,0.99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .box .rooms .create-room {
+    height: 100px;
+    background-color: #90a4ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid #212121;
+}
+
+.container .box .rooms .create-room input {
+
+    background: none;
+}
+.container .box .rooms .create-room input:active {
+    border: none;
+}
+
+.container .box .rooms .room-list {
+    overflow-y: auto;
+    color: #616161;
+}
+
+.container .box .rooms .room-list li {
+    border-bottom: 1px solid #eeeeee;
+    cursor: pointer;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
